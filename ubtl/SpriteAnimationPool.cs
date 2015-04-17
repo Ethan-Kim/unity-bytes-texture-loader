@@ -18,9 +18,10 @@ public class SpriteAnimationPool : MonoBehaviour {
 #if UNITY_EDITOR
 			DataInitialized = true;
 #else
-			if (Application.loadedLevelName != "Title") {
-				StartCoroutine (Preload ());
-			}
+// if you want to preload all animations please modify scene name below.
+//			if (Application.loadedLevelName != "Title") {
+//				StartCoroutine (Preload ());
+//			}
 #endif
 		} else if (Instance != this) {
 			Destroy (gameObject);

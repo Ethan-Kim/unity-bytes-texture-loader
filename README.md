@@ -76,13 +76,6 @@ Nothing to explain.
 
 This script implements simple texture pool.
 Supports Preload enumerator to load all textures when start. This prevents loading lag.
-### WARNING
-Please modify SpriteTexturePool.cs Line 72 with your first scene name.
-Sorry for inconvenience
-
-```csharp
-if (Application.loadedLevelName != "Title") {
-```
 
 - Add GameObject into your first scene.
 - Add SpriteTexturePool script.
@@ -97,13 +90,6 @@ if (Application.loadedLevelName != "Title") {
 
 This script implements simple animator pool.
 Supports Preload enumerator to load all animators when starts. This prevents loading lag.
-### WARNING
-Please modify SpriteAnimationPool.cs Line 21 with your first scene name.
-Sorry for inconvenience
-
-```csharp
-if (Application.loadedLevelName != "Title") {
-```
 
 - Add GameObject into your first scene.
 - Add SpriteAnimationPool script.
