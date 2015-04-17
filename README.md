@@ -140,6 +140,9 @@ loader.Load ();
 
 I use these script to development my game.
 It's on Apple Appstore and Google Playstore.
+
 [Apple Appstore Paid](http://appstore.com/findingsally)
+
 [Google Playstore Free](https://play.google.com/store/apps/details?id=com.toripacktory.findingbutlerlite)
+
 [Google Playstore Paid](https://play.google.com/store/apps/details?id=com.toripacktory.findingbutler)
